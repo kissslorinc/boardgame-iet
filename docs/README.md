@@ -9,9 +9,7 @@
 <a href="https://gitter.im/boardgame-io"><img src="https://badges.gitter.im/boardgame-io.svg" alt="Gitter" /></a>
 </p>
 
-<p align="center">
-  <strong>Full Documentation: <a href="https://google.github.io/boardgame.io">link</a></strong>
-</p>
+---
 
 The goal of this framework is to allow a game author to
 essentially translate the rules of a game into a series of
@@ -20,7 +18,7 @@ when a particular move is made, and the framework takes
 care of the rest. You will not need to write any
 networking or backend code.
 
-## Features
+### Features
 
 * **State Management**: Game state is managed seamlessly across clients, server and storage automatically.
 * **Cross-platform Multiplayer**: All clients (Web / Android / iOS) connected to the same game are synced in real time.
@@ -31,29 +29,27 @@ networking or backend code.
 * **Logs**: Game logs with the ability to time travel (viewing the board at an earlier state).
 * **Component Toolkit**: Components for hex grids, cards, tokens (React only at the moment).
 
-## Usage
-
 ### Installation
 
 ```
-$ npm install --save boardgame.io
+npm install --save boardgame.io
 ```
 
-### Running examples in this repository
+A browser-minified version is also available that you may
+include via a `<script>` tag.
 
 ```
-$ npm install
-$ npm run examples
+<script src="//unpkg.com/boardgame.io"></script>
 ```
 
-## Changelog
+### Changelog
 
-See [changelog](docs/CHANGELOG.md).
+See [changelog](CHANGELOG.md).
 
-## Contributing
-
-See the contributing [guidelines](CONTRIBUTING.md).
-
-## Disclaimer
+### Disclaimer
 
 This is not an official Google product.
+
+### License
+
+MIT
